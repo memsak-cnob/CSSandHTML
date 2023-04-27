@@ -1,0 +1,67 @@
+@black:#000000;
+@red:red;
+@border-radius:10px;
+
+
+.round-borders{
+    border-radius:@border-radius + 5;
+
+}
+
+
+.container{
+    color:lighten(black, 25%);
+    //color:@black;
+
+    #mainContent{
+        background-color:#fff;
+    }
+
+    .leftContainer{
+        background-color:black;
+        //background-color:darken(@red, 10%);
+        .round-borders
+    }
+
+    .middleContainer{
+        background-color:blue;
+        .round-borders
+    }
+
+    .rightContainer{
+        background-color:red;
+        .round-borders
+    }
+
+    .news{
+        padding:10px;
+    }
+
+    .secondaryContent{
+        background-color:white;
+        color:#fff;
+
+    }
+
+    .buttonContainer{
+        background-color: black;
+        color:darkorange;
+
+    }
+    .secondaryContent{
+        p{
+            padding:5px;
+        }
+
+        a.myLink{
+            color:blue;
+            &:hover{
+                color:purple;
+                font-weight:bold;
+            }
+
+        }
+    }
+
+}
+

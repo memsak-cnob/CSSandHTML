@@ -1,0 +1,42 @@
+.round-borders {
+  border-radius: 15px;
+}
+.container {
+  color: #404040;
+}
+.container #mainContent {
+  background-color: #fff;
+}
+.container .leftContainer {
+  background-color: black;
+  border-radius: 15px;
+}
+.container .middleContainer {
+  background-color: blue;
+  border-radius: 15px;
+}
+.container .rightContainer {
+  background-color: red;
+  border-radius: 15px;
+}
+.container .news {
+  padding: 10px;
+}
+.container .secondaryContent {
+  background-color: white;
+  color: #fff;
+}
+.container .buttonContainer {
+  background-color: black;
+  color: darkorange;
+}
+.container .secondaryContent p {
+  padding: 5px;
+}
+.container .secondaryContent a.myLink {
+  color: blue;
+}
+.container .secondaryContent a.myLink:hover {
+  color: purple;
+  font-weight: bold;
+}
